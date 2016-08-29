@@ -1,24 +1,9 @@
 object Problems {
 
-  // For the first 8 problems try to use combinators!
+  // For the first 4 problems try to use combinators!
   // You can find them by searching the Scala documentation for List and Seq
   // There are many ways to solve these problems, you can see some
   // idiomatic solutions here http://aperiodic.net/phil/scala/s-99/ for solutions
-
-  // Find the last element of a list.
-  def last[A](l: List[A]): Option[A] = ???
-
-
-  // Find the last but one element of a list.
-  def penultimate[A](l: List[A]): Option[A] = ???
-
-
-  // Find the Nth element of a list.
-  def elementAt[A](i: Int, list: List[A]): Option[A] = ???
-
-
-  // Find the number of elements of a list.
-  def len[A](l: List[A]): Int = ???
 
 
   // Reverse a list.
