@@ -43,6 +43,10 @@ object Problems {
   def isSorted[A](as: Array[A], gt: (A,A) => Boolean): Boolean = ???
 
 
+  // Note that the following functions do not have tests! There is no need
+  // since there is only one way to implement it and it can be checked
+  // by the compiler. Static type systems and polymorphic polymorphism ftw!
+
   // Hint: use the following implementation of "partial application" for
   // inspiration for the following problems on currying
   def partial[A,B,C](a: A, f: (A,B) => C): B => C = {
