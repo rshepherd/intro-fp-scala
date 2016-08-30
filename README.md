@@ -6,4 +6,4 @@ functions allow for computational abstractions that lead to expressive and more 
 I'll also introduce function composition, our most powerful technique for constructing programs
 from functions. 
 
-Acknowledgments: Some content was origninally presented by Emily Chen from Meetup or taken from "FP in Scala" by Runar & Paul
+Acknowledgments: Some content was originally presented by Emily Chen from Meetup or taken from "FP in Scala" by Runar & Paul
