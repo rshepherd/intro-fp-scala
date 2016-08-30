@@ -1,9 +1,9 @@
 
 /* Reuse */
 
-case class Coffee(cc: CreditCard, amount: Double) {
+case class Charge(cc: CreditCard, amount: Double) {
   // combines two charges together to reduce processing fees
-  def combine(other: Charge): Charge = ??? 
+  def combine(other: Charge): Charge = Charge(cc, amount + other.amount) 
 }
 
 // Same as last slide

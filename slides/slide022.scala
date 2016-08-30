@@ -16,5 +16,5 @@ def findFirst(ss: Array[String], key: String): Int = {
     loop(0)
 }
 
-// Do you want to write this for every type of this array?
+// Do you want to write this for every array of some type?
 

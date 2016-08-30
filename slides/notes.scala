@@ -33,8 +33,6 @@ https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf
 
 //--
 /*
-Why 
-
 "Functional programs contain no assignment statements, so variables, once given a value, never change."
 
 What is this property called?
@@ -42,8 +40,6 @@ What is this property called?
 
 //--
 /*
-Why 
-
 "Functional programs contain no assignment statements, so variables, once given a value, never change."
 
 What is this property called?
