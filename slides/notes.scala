@@ -213,12 +213,13 @@ def addOneToResult(x: Int, f: Int => Int) = {
 addOneToResult(3, square)
 
 // Ex. Passing an anonymous function
-addOneToResult(2,  { i: Int => i * i * i } )
+addOneToResult(2,  { i: Int => i * i * i } ) // AKA lambda
 
 //--
 /* Higher Order Functions 
 
-A fancy name for functions that take functions as arguments.
+A fancy name for functions that take functions as arguments or returns
+a function as its return type.
 */
 
 object MyModule {
