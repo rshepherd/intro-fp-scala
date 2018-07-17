@@ -26,7 +26,7 @@ object List {
       case Cons(h,t) => Cons(h, append(t, a2))
     }
 
-  def foldRight[A,B](as: List[A], z: B)(f: (A, B) => B): B = // Utility functions
+  def foldRight[A,B](as: List[A], z: B)(f: (A, B) => B): B = 
     as match {
       case Nil => z
       case Cons(x, xs) => f(x, foldRight(xs, z)(f))
