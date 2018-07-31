@@ -74,6 +74,35 @@ object List {
   def product3(ns: List[Double]) = ???
 
   def length2[A](l: List[A]): Int = ???
+  
+  // Ex. 3.12
+  def reverse[A](l: List[A]): List[A] = ???
+
+  // Ex. 3.13
+  def foldLeft2[A,B](l: List[A], z: B)(f: (B, A) => B): B = ???
+
+  def foldRight2[A,B](l: List[A], z: B)(f: (B, A) => B): B = ???
+
+  // 3.14
+  def append2[A](a1: List[A], a2: List[A]): List[A] = ???
+
+  // 3.15
+  def concat[A](l1: List[List[A]]): List[A] = ???
+
+  // 3.16
+  def addOne(l: List[Int]): List[Int] = ???
+
+  // 3.17
+  def toString(l: List[Double]): List[String] = ???
+
+  // 3.18
+  def map[A,B](l: List[A])(f: A => B): List[B] = ???
+
+  // 3.19
+  def filter[A](l: List[A])(f: A => Boolean): List[A] = ???
+
+  // 3.20
+  def flatMap[A,B](l: List[A])(f: A => List[B]): List[B] = ???
 
 }
 
