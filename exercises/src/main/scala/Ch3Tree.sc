@@ -14,3 +14,13 @@ object Tree {
 
   def fold[A,B](t: Tree[A])(f: A => B)(g: (B,B) => B): B = ???
 }
+
+val six = Leaf(6)
+val five = Leaf(5)
+val four = Leaf(4)
+val three = Leaf(3)
+val two = Branch(five, six)
+val one = Branch(three, four)
+val root = Branch(one, two)
+
+println(Tree.size(root))
